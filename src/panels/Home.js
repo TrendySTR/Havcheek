@@ -5,7 +5,7 @@ import { Panel, ListItem, Button, Group, Div, Avatar, PanelHeader } from '@vkont
 
 const Home = ({ id, go, fetchedUser }) => (
 	<Panel id={id}>
-		<PanelHeader className="header_color">Havcheek</PanelHeader>
+		<PanelHeader className="header_color">Havcheek test</PanelHeader>
 		{fetchedUser &&
 		<Group title="User Data Fetched with VK Connect">
 			<ListItem
