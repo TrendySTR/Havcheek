@@ -1,11 +1,21 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import './css/style.css';
+
 import { Panel, ListItem, Button, Group, Div, Avatar, PanelHeader } from '@vkontakte/vkui';
+
+import './css/style.css';
 
 const Home = ({ id, go, fetchedUser }) => (
 	<Panel id={id}>
-		<PanelHeader className="header_color">Havcheek test</PanelHeader>
+		<Div>
+		</Div>
+		
+		
+		
+		
+		
+		
+		
 		{fetchedUser &&
 		<Group title="User Data Fetched with VK Connect">
 			<ListItem
@@ -23,6 +33,7 @@ const Home = ({ id, go, fetchedUser }) => (
 				</Button>
 			</Div>
 		</Group>
+		
 	</Panel>
 );
 
