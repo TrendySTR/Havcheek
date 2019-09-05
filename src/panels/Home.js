@@ -7,8 +7,7 @@ import './css/style.css';
 
 const Home = ({ id, go, fetchedUser }) => (
 	<Panel id={id}>
-		<Div>
-		</Div>
+		<PanelHeader className="HeaderColor">Havcheek</PanelHeader>
 		
 		
 		
