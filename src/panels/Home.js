@@ -1,10 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import './css/style.css';
 import { Panel, ListItem, Button, Group, Div, Avatar, PanelHeader } from '@vkontakte/vkui';
 
 const Home = ({ id, go, fetchedUser }) => (
 	<Panel id={id}>
-		<PanelHeader>Example</PanelHeader>
+		<PanelHeader className="header_color">Havcheek</PanelHeader>
 		{fetchedUser &&
 		<Group title="User Data Fetched with VK Connect">
 			<ListItem
